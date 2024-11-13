@@ -11,7 +11,7 @@ class ExchangeRepositoryImpl(
 ) : ExchangeRepository {
 
     private val tag = "ExchangeRepositoryImpl: "
-    private val baseUrl = ""
+    private val baseUrl = "https://v6.exchangerate-api.com/v6"
     private val apiKey = ""
 
     override suspend fun convert(
